@@ -1,4 +1,5 @@
-/*
+
+  /*
 
 Theme Name: Kirmanalidris
 
@@ -43,6 +44,12 @@ body {
   line-height: 1,6em;
   user-select: none;
 }
+/*responsive embed*/
+.wp-block-embed__wrapper,
+.wp-block-embed{
+width:100%; height:auto;position:relative;overflow: hidden;
+}
+
 /*highlighter*/
 pre{
   background: rgb(0,0,0,0.10);
@@ -225,7 +232,7 @@ header, main, footer{
 .section-inner {
   border-radius: 10px;
   background: #fff;
-  margin: 15px;
+  margin: 10px;
   padding: 15px;
   overflow: hidden;
 }
@@ -276,14 +283,14 @@ header, main, footer{
 }
 /*== Tags ==*/
 .kirman_tag_con{margin:20px 0; display:flex;align-items: center;}
-.kirman_tags a{display: none;padding:5px 10px; background:#E3F2FD; color:#2196F3; display:inline-block; border-radius:5px; border:1px solid rgb(0,0,0,0.12);margin-right:10px;)}
-.more_vert{padding:5px; background:#E3F2FD; color:#2196F3; display:inline-block;align-items: center; border-radius:5px; white-space:nowrap; border:1px solid rgb(0,0,0,0.12);}
+.kirman_tags a{margin-top:10px;display: none;padding:5px 10px; background:#E3F2FD; color:#2196F3; display:inline-block; border-radius:5px; border:1px solid rgb(0,0,0,0.12);margin-right:10px;)}
+.more_vert{margin-top:10px;padding:5px; background:#E3F2FD; color:#2196F3; display:inline-block;align-items: center; border-radius:5px; white-space:nowrap; border:1px solid rgb(0,0,0,0.12);}
 .more_vert i{font-size:16px; margin-right:10px; vertical-align:-4px;}
 /*Author*/
 .author_con{
   background: #fff;
   border-radius: 10px;
-  margin: 15px;
+  margin: 10px;
   padding: 15px;
 }
 .author_con .detail{
@@ -473,9 +480,9 @@ width: 60px;
   color: #fff;
 }
 .kirman_post {
-  margin: 0 15px;
+  margin: 0 10px;
   border-radius: 10px;
-  padding: 15px;
+  padding:15px;
   margin-top: -140px;
   background: #fff;
 }
@@ -565,7 +572,7 @@ text-decoration: none;
   border-radius: 10px;
   padding: 7.5px;
   position: relative;
-  margin: 15px;
+  margin: 10px;
   overflow: hidden;
 }
 .kirman_related_con h1{
