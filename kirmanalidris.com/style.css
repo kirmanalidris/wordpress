@@ -41,6 +41,15 @@ body {
   color: #4c4c4c;
   font-size: 14px;
   line-height: 1,6em;
+  user-select: none;
+}
+/*highlighter*/
+pre{
+  background: rgb(0,0,0,0.10);
+  padding: 15px;
+  border-radius: 10px;
+  overflow: auto;
+  user-select: all;
 }
 /*komentar*/
 
@@ -267,8 +276,8 @@ header, main, footer{
 }
 /*== Tags ==*/
 .kirman_tag_con{margin:20px 0; display:flex;align-items: center;}
-.kirman_tags a{display: none;padding:5px 10px; background:#E3F2FD; color:#2196F3; display:inline-block; border-radius:5px; border:1px solid rgb(0,0,0,0.12);margin-right:10px;margin-bottom:10px;}
-.more_vert{padding:5px; background:#E3F2FD; color:#2196F3; display:inline-block;align-items: center; white-space:nowrap; border-radius:5px; border:1px solid rgb(0,0,0,0.12);}
+.kirman_tags a{display: none;padding:5px 10px; background:#E3F2FD; color:#2196F3; display:inline-block; border-radius:5px; border:1px solid rgb(0,0,0,0.12);margin-right:10px;)}
+.more_vert{padding:5px; background:#E3F2FD; color:#2196F3; display:inline-block;align-items: center; border-radius:5px; white-space:nowrap; border:1px solid rgb(0,0,0,0.12);}
 .more_vert i{font-size:16px; margin-right:10px; vertical-align:-4px;}
 /*Author*/
 .author_con{
