@@ -26,10 +26,161 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:400;font-display:swap;src:local('Roboto Condensed Italic'),local('RobotoCondensed-Italic'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVj2ZhZI2eCN5jzbjEETS9weq8-19eLAQM9QPFUex17.woff2) format('woff2');unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
 /* latin */
 @font-face{font-family:'Roboto Condensed';font-style:italic;font-weight:400;font-display:swap;src:local('Roboto Condensed Italic'),local('RobotoCondensed-Italic'),local('sans-serif-condensed'),url(https://fonts.gstatic.com/s/robotocondensed/v18/ieVj2ZhZI2eCN5jzbjEETS9weq8-19eLDwM9QPFUew.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-/*google material-icons*/
 /* fallback */
-@font-face{font-family:'Material Icons';font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialicons/v53/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2')}
-.material-icons{font-family:'Material Icons';font-weight:normal;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:'liga';-webkit-font-smoothing:antialiased}
+@font-face {
+  font-family: 'Material Icons Two Tone';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialiconstwotone/v22/hESh6WRmNCxEqUmNyh3JDeGxjVVyMg4tHGctNCu0NjbrHg.woff2) format('woff2');
+}
+.material-icons-two-tone {
+  font-family: 'Material Icons Two Tone';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+    .kirman_artikel {
+      line-height: 1.6em;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-weight: 400;
+    }
+    .kirman_artikel h1,.kirman_artikel h2,.kirman_artikel h3,.kirman_artikel h4 {
+      font-weight: 400
+    }
+    .kirman_artikel h1 {
+      font-size: 22px
+    }
+    .kirman_artikel h2 {
+      font-size: 18px
+    }
+    .kirman_artikel h3 {
+      font-size: 16px
+    }
+    .kirman_artikel h4 {
+      font-size: 14px
+    }
+    .slider-dasboard {
+      border-radius: 10px;
+      border: 1px solid  rgb(0,0,0,0.10);
+    }
+    /*recent posts*/
+    .widget_title {}
+    .widget_title h1 {
+      font-size: 18px;
+    }
+    .widget_title p {}
+    .widget_title a {
+      color:;
+      text-decoration: underline;
+    }
+    .widget_title a i {
+      vertical-align: -4px;
+      font-size: 16px;
+    }
+    .kirman_feed_wrap {
+      margin-top: 40px;
+      position: relative;
+      overflow: auto;
+      display: flex;
+      overflow: auto;
+      align-items: center;
+      padding: 2px;
+      background: #fff;
+    }
+    .kirman_feed_con {
+      width: auto!important;
+      height: 395px;
+      float: left;
+      position: relative;
+      margin: 0 20px 0 0;
+      padding: 0;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 8px 2px rgb(0,0,0,0.10);
+    }
+    .kirman_feed_img {
+      border-radius: 10px 10px 0 0;
+      width: 200px;
+      height: 160px;
+      margin: 0;
+    }
+    .kirman_feed_footer {
+      padding: 10px;
+      display: inline-block;
+      position: relative;
+    }
+    .kirman_feed_footer .kirman_feed_title {
+      font-size: 16px;
+    }
+    .kirman_feed_footer .kirman_feed_snippet,
+    .kirman_feed_footer .kirman_feed_date,
+    {
+      color: gray;
+      font-size: 12px;
+    }
+
+    /*info payment by kirmanalidris*/
+    .payment_info {
+      max-width: 700px;
+      position: relative;
+      border: 1px solid rgb(0,0,0,0.10);
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .payment_info ul {
+      padding: 0;
+      margin: 0;
+    }
+    .payment_info li {
+      list-style: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-right: 10px;
+      margin-top: 10px;
+      background: rgb(0,0,0,0.10);
+      display: inline-block;
+    }
+    .woocommerce-MyAccount-navigation {
+      margin-bottom: 40px;
+    }
+
+    .woocommerce-MyAccount-content {}
+    .woocommerce-MyAccount-content p {}
+
+    .payment_info legend h4 {
+      margin: 20px;
+      font-weight: 600;
+    }
+
+    .payment_info p {
+      font-size: 14px
+    }
+
+    .payment_info hr {
+      height: 0.0px;
+      border: 1px solid rgb(0,0,0,0.10)
+    }
+
+    .payment_info fieldset {
+      border: 1px solid rgb(0,0,0,0.10);
+      border-radius: 10px;
+      padding: 20px
+    }
+
+    .payment_info li {
+      font-size: 14px;
+    }
 
 html {
   scroll-behavior: smooth;
