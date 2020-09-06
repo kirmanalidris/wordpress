@@ -73,6 +73,14 @@ width:100%; height:auto;position:relative;overflow: hidden;
 }
 
 
+    .kirman_artikel {
+      line-height: 1.6em;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-weight: 400;
+    }
+
+
       .kirman_artikel h1,
       .kirman_artikel h2,
       .kirman_artikel h3,
@@ -84,12 +92,7 @@ width:100%; height:auto;position:relative;overflow: hidden;
        margin-top: 40px;
       }
 
-    .kirman_artikel {
-      line-height: 1.6em;
-    }
-    h1,h2,h3,h4,h5,h6 {
-      font-weight: 400;
-    }
+
     .kirman_artikel h1,.kirman_artikel h2,.kirman_artikel h3,.kirman_artikel h4 {
       font-weight: 400
     }
