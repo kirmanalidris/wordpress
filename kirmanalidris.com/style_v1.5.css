@@ -71,6 +71,19 @@ body {
 .wp-block-embed{
 width:100%; height:auto;position:relative;overflow: hidden;
 }
+
+
+      .kirman_artikel h1,
+      .kirman_artikel h2,
+      .kirman_artikel h3,
+      .kirman_artikel h4,
+      .kirman_artikel h5,
+      .kirman_artikel h6
+      {
+       font-weight:450;
+       margin-top: 40px;
+      }
+
     .kirman_artikel {
       line-height: 1.6em;
     }
