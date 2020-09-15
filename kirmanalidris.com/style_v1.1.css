@@ -68,6 +68,23 @@ body {
   user-select: none;
 }
 /*responsive embed*/
+    .kirman_artikel figure img {
+      width: 100%;
+      height: auto;
+    }
+    .kirman_artikel figure {
+      margin: auto 0px;
+    }
+    .kirman_artikel img.size-full,
+    .kirman_artikel img.alignnone,
+    .kirman_artikel img.failed
+    {
+      width: 100%;
+      height: auto;
+    }
+    .kirman_artikel a {
+      color: #2196F3;
+    }
 .wp-block-embed__wrapper,
 .wp-block-embed{
 width:100%; height:auto;position:relative;overflow: hidden;
@@ -531,16 +548,6 @@ header, main, footer{
 }
 
 /*== IKLAN ==*/
-    .kirman_artikel figure img {
-      width: 100%;
-      height: auto;
-    }
-    .kirman_artikel figure {
-      margin: auto 0px;
-    }
-    .kirman_artikel a {
-      color: #2196F3;
-    }
 @media only screen and (max-width:768px) {
     .iklan_1 {
     overflow: hidden;
