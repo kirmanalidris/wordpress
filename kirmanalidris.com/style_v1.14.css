@@ -2,7 +2,6 @@
   /*
 
 Theme Name: Kirmanalidris
-
 Theme URI: https://www.kirmanalidris.com/
 Author: Kirmanalidris
 Author URI: https://www.kirmanalidris.com/
@@ -10,7 +9,12 @@ Description: Ini adalah template pertama saya yang hanya untuk website saya dan 
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
+
+WARNING..
+Semua kode yang ada dalam repository github.com/kirmanalidris/wordpress/
+Digunakan hanya untuk pribadi, tidak untuk di copas, bagian atau dijual
+Copyright berlaku bila itu terjadi
+==================*/
 
 /* fallback */
 @font-face {
@@ -290,8 +294,8 @@ border: 4px solid var(--secondary);
 
 
 /*== HIGHLIGHT ==*/
-pre{line-height:1.2em;user-select:all;background:var(--secondary);border:1px solid rgba(0,0,0,0.10);font-size:12px;max-height:400px;max-width:100%;overflow:auto;padding:10px;border-radius:10px}
-pre,code{color:var(--primary)}
+pre{line-height:1.2em;user-select:all;background:#263238;border:1px solid rgba(0,0,0,0.10);font-size:12px;max-height:400px;max-width:100%;overflow:auto;padding:10px;border-radius:10px}
+pre,code{color:#fff}
 /*== HIGHLIGHT ==
 /*komentar*/
 
