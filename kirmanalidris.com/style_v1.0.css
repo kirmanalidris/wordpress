@@ -303,7 +303,11 @@ border: 4px solid var(--secondary);
 
 
 /*== HIGHLIGHT ==*/
-pre{line-height:1.2em;user-select:all;background:#263238;border:1px solid rgba(0,0,0,0.10);font-size:12px;max-height:400px;max-width:100%;overflow:auto;padding:10px;border-radius:10px}
+pre{line-height:1.2em;user-select:all;background:#263238;border:1px solid rgba(0,0,0,0.10);font-size:12px;max-height:400px;max-width:100%;
+white-space: pre;
+word-wrap: break-word;
+overflow: auto;
+padding:10px;border-radius:10px}
 pre,code{color:#fff}
 /*== HIGHLIGHT ==
 /*komentar*/
@@ -1015,7 +1019,7 @@ ease .2s;animation-iteration-count:1;animation-fill-mode:forwards;position:fixed
   }
 }
 
-  <style>
+  
 
   .komen_pesan h2{margin:0;padding:0}
   .komen_pesan p{padding:0;margin:15px 0}
